@@ -1,0 +1,29 @@
+{
+  "name": "Chapter_8_Redux",
+  "version": "1.0.0",
+  "description": "",
+  "main": "color.js",
+  "scripts": {
+    "develop": "webpack --mode development --watch",
+    "build": "babel src/constants.js -d dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.3.1",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/preset-stage-0": "^7.0.0",
+    "babel-loader": "^8.0.5",
+    "proptype": "^1.0.0",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "redux": "^4.0.1",
+    "uuid": "^3.3.2",
+    "webpack": "^4.29.0",
+    "webpack-cli": "^3.2.1"
+  }
+}
